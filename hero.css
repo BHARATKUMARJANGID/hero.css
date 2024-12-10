@@ -1,0 +1,46 @@
+.container{
+  border: 5px solid black;
+    background-color: white;
+    padding: 5px solid blue ;
+    height: 500px;
+    width: 100%;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.h3{
+    border: 20px solid yellow;
+    padding: 10px;
+    display: flex;
+}
+.hero{
+    
+    font-size: 20px;
+    border: 10px solid black;
+    height: 300px;
+    width: 900px;
+    
+   
+
+}
+.submit{
+    font-size: 20px;
+}
+
+.right-container{
+    
+    background-color: green;
+    border: 10px solid black;
+    height: 300px;
+    width: 400px;
+    position:absolute;
+    right: 20%;
+    top: 12%;
+    flex-shrink: 0;
+    border-radius: 10px;
+     
+    font-size: 20px;
+}
+
